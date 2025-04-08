@@ -40,7 +40,6 @@
         Console.WriteLine($"Создан объект: {numbers}");
         Console.WriteLine($"Произведение полей: {numbers.GetProduct()}");
 
-        Console.WriteLine("\nСоздание копии объекта...");
         var copiedNumbers = new TripleNumbers(numbers);
         Console.WriteLine($"Копия объекта: {copiedNumbers}");
     }
